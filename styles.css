@@ -9,8 +9,8 @@
 }
 
 .frame {
-    width: 100vw;
-    height: 30vh;
+    width: 100%;
+    height: 35vh;
     background: var(--bg);
     color: #fff;
     display: flex;
@@ -194,4 +194,14 @@
 /* classe show */
 #back-to-top.show {
     display: block;
+}
+
+/* visibilità sezioni */
+
+.notvisible {
+	display: none;
+}
+
+main {
+	margin: 50px auto;
 }
